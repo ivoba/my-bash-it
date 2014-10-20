@@ -7,11 +7,17 @@ clone this repo to somewhere and include what you need.
 In the custom.aliases.bash add this for the symfony2 aliases:
 
     if [ -f ~/Projects/my-bash-it/aliases/symfony.aliases.bash ]; then
-       . ~/Projects/my-bash-it/aliases/symfony.aliases.bash
+       . ~/Sites/my-bash-it/aliases/symfony.aliases.bash
     fi
 
 then call:
 
+    reload
+
+###lib
+Link the custom.bash to add global composer to PATH
+
+    ln -s ~/Sites/my-bash-it/lib/ ./lib/custom.bash
     reload
 
 ###theme
