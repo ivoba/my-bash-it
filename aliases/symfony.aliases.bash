@@ -13,6 +13,7 @@ alias sfcw='php app/console cache:warmup'
 alias sfrd='php app/console router:debug'
 alias sflog='tail -n 100 app/logs/dev.log'
 alias sfplog='tail -n 100 app/logs/prod.log'
+alias sfsr='php app/console server:run'
 alias sft='bin/phpunit -c app'
 
 # phpunit
