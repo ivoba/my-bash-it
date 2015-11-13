@@ -23,3 +23,4 @@ alias pu=phpunit
 # composer
 alias cou='composer update'
 alias coi='composer install'
+alias cor='composer require'
