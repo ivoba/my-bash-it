@@ -18,6 +18,7 @@ alias sft='bin/phpunit -c app'
 
 # phpunit
 alias vpu='vendor/bin/phpunit'
+alias bpu='bin/phpunit'
 alias pu=phpunit
 
 # composer
